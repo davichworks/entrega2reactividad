@@ -1,0 +1,11 @@
+Diferencias entre Ref y Reactive:
+
+La funcion Ref:
+  - Es utilizada para envolver un valor primitivo o un objeto simple para hacerlo reactivo.
+  - Si necesitas modificar el valor contenido, debes hacerlo a través de la propiedad `.value`.
+  - Es útil para valores simples como números, cadenas, booleanos, etc.
+
+La funcion Reactive:
+  - Utilizado para envolver un objeto completo para hacerlo reactivo.
+  - Puedes modificar las propiedades del objeto directamente sin necesidad de acceder a una propiedad especial como `.value`.
+  - Es útil para objetos complejos con múltiples propiedades.

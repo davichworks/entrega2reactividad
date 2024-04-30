@@ -1,0 +1,11 @@
+Diferencias entre Computed y Watch:
+
+La función computed:
+    - Es Utilizada para calcular valores de manera reactiva basados en otros valores reactivos.
+    - Se recalcula automáticamente cuando alguna de sus dependencias cambia.
+    - Es útil para derivar valores a partir de otros valores reactivos.
+
+La función watch:
+    - Utilizado para observar cambios en una propiedad específica o en un valor calculado y ejecutar una función cuando cambia.
+    - Proporciona más flexibilidad que `computed` ya que puedes ejecutar acciones personalizadas en respuesta a cambios específicos.
+    - Es útil para casos donde necesitas realizar acciones personalizadas en respuesta a cambios específicos.
